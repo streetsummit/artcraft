@@ -1,0 +1,30 @@
+.page-header {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #ffffff;
+
+	@media (min-width: $desktop-width) {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+}
+
+.page-header__wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.page-header__nav-toggle {
+	@media (min-width: $desktop-width) {
+		display: none;
+	}
+}
+
+.page-header__logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	@media (min-width: $desktop-width) {
+		justify-content: start	}
+}

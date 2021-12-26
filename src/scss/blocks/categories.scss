@@ -1,0 +1,26 @@
+.categories__item--offset {
+	margin-top: 5px;
+}
+
+.categories__link {
+	width: 100%;
+	padding: 15px 20px;
+	line-height: 20px;
+
+	@media (min-width: $desktop-width) {
+		border-radius: 4px;
+	}
+}
+
+.categories__link--current {
+	pointer-events: none;
+	
+	@media (max-width: $mobile-width-only) {
+		background-color: rgba(102, 31, 255, 0.03);
+		border-left: 2px solid #661fff;
+	}
+
+	@media (min-width: $desktop-width) {
+		background-color: #ffffff;
+	}
+}

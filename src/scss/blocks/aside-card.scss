@@ -1,0 +1,36 @@
+.aside-card__header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.aside-card__content {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.aside-card__title {
+	margin-bottom: 10px;
+}
+
+.aside-card__lead {
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.aside-card__author {
+	font-size: 12px;
+	line-height: 1;
+	font-weight: 500;
+}
+
+.aside-card__date {
+	font-size: 12px;
+	color: rgba(18, 21, 31, 0.6);
+}
+
+.aside-card__footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
