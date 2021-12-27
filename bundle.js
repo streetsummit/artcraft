@@ -616,7 +616,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.esm.js\");\n\n\n\n\n// Tooltips initialization\nconst tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle=\"tooltip\"]'))\nconst tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {\n\treturn new bootstrap__WEBPACK_IMPORTED_MODULE_0__.Tooltip(tooltipTriggerEl)\n})\n\n\n\n// Site navigation\nconst navMain = document.querySelector('.site-nav');\nconst navToggles = document.querySelectorAll('.nav-toggle');\n\nnavToggles.forEach((navToggle) => {\n\tnavToggle.addEventListener('click', function () {\n\t\tnavMain.classList.toggle('site-nav--closed');\n\t});\n})\n\n//# sourceURL=webpack://artcraft-test/./src/js/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var bootstrap__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap */ \"./node_modules/bootstrap/dist/js/bootstrap.esm.js\");\n\r\n\r\n\r\n\r\n// Tooltips initialization\r\nconst tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle=\"tooltip\"]'))\r\nconst tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {\r\n\treturn new bootstrap__WEBPACK_IMPORTED_MODULE_0__.Tooltip(tooltipTriggerEl)\r\n})\r\n\r\n\r\n\r\n// Site navigation\r\nconst navMain = document.querySelector('.site-nav');\r\nconst navToggles = document.querySelectorAll('.nav-toggle');\r\n\r\nnavToggles.forEach((navToggle) => {\r\n\tnavToggle.addEventListener('click', function () {\r\n\t\tnavMain.classList.toggle('site-nav--closed');\r\n\t});\r\n})\n\n//# sourceURL=webpack://artcraft-test/./src/js/index.js?");
 
 /***/ }),
 
@@ -626,7 +626,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var boot
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/index.js */ \"./src/js/index.js\");\n/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scss/style.scss */ \"./src/scss/style.scss\");\n\n\n\n//# sourceURL=webpack://artcraft-test/./src/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js/index.js */ \"./src/js/index.js\");\n/* harmony import */ var _scss_style_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scss/style.scss */ \"./src/scss/style.scss\");\n\r\n\n\n//# sourceURL=webpack://artcraft-test/./src/main.js?");
 
 /***/ })
 
