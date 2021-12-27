@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./style.css">
+	<title>ArtCraft.Media</title>
+</head>
+
+<body class="page__body">
+	<header class="page-header">
+		<div class="page-header__container container">
+			<div class="page-header__wrapper row">
+				<div class="page-header__toggle-wrapper col-3 d-lg-none">
+					<button class="page-header__nav-toggle nav-toggle link" type="button" aria-label="Открыть меню">
+						<svg width="16" height="10" viewBox="0 0 16 10" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+							<path
+								d="M0.5 0H15.5V1.66667H0.5V0ZM0.5 4.16667H15.5V5.83333H0.5V4.16667ZM0.5 8.33333H15.5V10H0.5V8.33333Z" />
+						</svg>
+					</button>
+				</div>
+
+				<div class="page-header__logo col-6">
+					<a class="logo" href="index.html">
+						<img class="logo__img" src="./img/logo.svg" alt="">
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="page-content">
+		<div class="container">
+			<div class="row">
+				<nav class="page-content__nav site-nav site-nav--closed col-lg-3">
+					<div class="site-nav__header">
+						<h2 class="site-nav__title title title--h2">Разделы</h2>
+
+						<a class="site-nav__link-all link" href="#">Все разделы</a>
+
+						<button class="site-nav__nav-toggle nav-toggle link" type="button" aria-label="Закрыть меню">
+							<svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M11.8333 1.34163L10.6583 0.166626L5.99996 4.82496L1.34163 0.166626L0.166626 1.34163L4.82496 5.99996L0.166626 10.6583L1.34163 11.8333L5.99996 7.17496L10.6583 11.8333L11.8333 10.6583L7.17496 5.99996L11.8333 1.34163Z"
+									fill="currentColor" />
+							</svg>
+						</button>
+					</div>
+
+					<div class="site-nav__categories categories">
+						<ul class="categories__list">
+							<li class="categories__item">
+								<a href="#" class="categories__link categories__link--current pic-link link">
+									<img class="pic-link__icon" src="./img/nav-icon-all.svg" width="20" height="20" alt="">
+									<span>Все статьи</span>
+								</a>
+							</li>
+							<li class="categories__item">
+								<a href="#" class="categories__link pic-link link">
+									<img class="pic-link__icon" src="./img/nav-icon-news.svg" width="20" height="20" alt="">
+									<span>Новости</span>
+								</a>
+							</li>
+							<li class="categories__item">
+								<a href="#" class="categories__link pic-link link">
+									<img class="pic-link__icon" src="./img/nav-icon-2D.svg" width="20" height="20" alt="">
+									<span>2D Арт</span>
+								</a>
+							</li>
+							<li class="categories__item">
+								<a href="#" class="categories__link pic-link link">
+									<img class="pic-link__icon" src="./img/nav-icon-3D.svg" width="20" height="20" alt="">
+									<span>3D Арт</span>
+								</a>
+							</li>
+							<li class="categories__item">
+								<a href="#" class="categories__link pic-link link">
+									<img class="pic-link__icon" src="./img/nav-icon-gamedev.svg" width="20" height="20" alt="">
+									<span>Геймдев</span>
+								</a>
+							</li>
+							<li class="categories__item">
+								<a href="#" class="categories__link pic-link link">
+									<img class="pic-link__icon" src="./img/nav-icon-soft.svg" width="20" height="20" alt="">
+									<span>Софт</span>
+								</a>
+							</li>
+							<li class="categories__item">
+								<a href="#" class="categories__link pic-link link">
+									<img class="pic-link__icon" src="./img/nav-icon-movie.svg" width="20" height="20" alt="">
+									<span>Кино</span>
+								</a>
+							</li>
+							<li class="categories__item categories__item--offset">
+								<a href="#" class="categories__link pic-link link">
+									<span>Ещё разделы</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="site-nav__social social">
+						<h3 class="social__title title title--h3">ArtCraft в соц.сетях</h3>
+						<ul class="social__list">
+							<li class="social__item">
+								<a href="#" class="social__link" data-bs-toggle="tooltip" title="Наш Телеграм"
+									aria-label="Наш Телеграм">
+									<img src="./img/social-icon-telegram.svg" width="19" height="17" alt="">
+								</a>
+							</li>
+							<li class="social__item">
+								<a href="#" class="social__link" data-bs-toggle="tooltip" title="Наш канал Youtube"
+									aria-label="Наш канал Youtube">
+									<img src="./img/social-icon-youtube.svg" width="21" height="15" alt="">
+								</a>
+							</li>
+							<li class="social__item">
+								<a href="#" class="social__link" data-bs-toggle="tooltip" title="Наш Twitter" aria-label="Наш Twitter">
+									<img src="./img/social-icon-twitter.svg" width="23" height="18" alt="">
+								</a>
+							</li>
+							<li class="social__item">
+								<a href="#" class="social__link" data-bs-toggle="tooltip" title="Наш Facebook"
+									aria-label="Наш Facebook">
+									<img src="./img/social-icon-facebook.svg" width="21" height="21" alt="">
+								</a>
+							</li>
+							<li class="social__item">
+								<a href="#" class="social__link" data-bs-toggle="tooltip" title="Наш Instagram"
+									aria-label="Наш Instagram">
+									<img src="./img/social-icon-instagram.svg" width="21" height="21" alt="">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+				<main class="page-content__main col-lg-6">
+					<div class="page-content__filters filters dropdown">
+						<button class="dropdown-toggle filters__toggle" type="button" id="dropdownMenuButton1"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							<span>Свежее</span>
+							<svg width="11" height="8" viewBox="0 0 11 8" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M1.42097 0.912524L5.24597 4.72919L9.07097 0.912524L10.246 2.08752L5.24597 7.08752L0.245972 2.08752L1.42097 0.912524Z"
+									fill="#661FFF" />
+							</svg>
+
+						</button>
+						<ul class="filters__list dropdown-menu" aria-labelledby="dropdownMenuButton1">
+							<li class="filters__item">
+								<button class="filters__filter filters__filter--current dropdown-item" type="button">Свежее</button>
+							</li>
+							<li class="filters__item">
+								<button class="filters__filter dropdown-item" type="button">Рекомендации</button>
+							</li>
+							<li class="filters__item">
+								<button class="filters__filter dropdown-item" type="button">Популярное</button>
+							</li>
+							<li class="filters__item">
+								<button class="filters__filter dropdown-item" type="button">Обсуждаемое</button>
+							</li>
+						</ul>
+					</div>
+					<div class="page-content__cards">
+						<article class="page-content__card card">
+							<header class="card__header">
+								<div class="card__category-wrapper">
+									<a class="card__category pic-link link" href="#">
+										<img class="card__category-icon pic-link__icon" src="./img/nav-icon-3D.svg" width="20" height="20"
+											alt="">
+										<span class="card__category-label pic-link__label">3D Арт</span>
+									</a>
+									<button class="card__category-subscribe" type="button" data-bs-toggle="tooltip"
+										data-bs-placement="top" title="Подписаться" aria-label="Подписаться">
+										<svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"
+											fill="currentColor" aria-hidden="true">
+											<path
+												d="M11.8333 6.83335H6.83334V11.8334H5.16667V6.83335H0.166672V5.16669H5.16667V0.166687H6.83334V5.16669H11.8333V6.83335Z" />
+										</svg>
+
+									</button>
+								</div>
+
+								<div class="card__author-wrapper">
+									<a href="#" class="card__author pic-link link">
+										<img class="pic-link__icon" src="./img/user-vasya-pupkin.png" width="20" height="20" alt="">
+										<span class="pic-link__label">Vasya Pupkin</span>
+									</a>
+								</div>
+
+								<div class="card__date-wrapper">
+									<time class="card__date decor-dot" datetime="2021-04-27">27 Апреля 2021</time>
+									<span class="card__read-time">10 мин чтения</span>
+								</div>
+							</header>
+
+
+							<div class="card__hover">
+								<div class="card__content">
+									<h2 class="card__title title title--h2">
+										<a href="#" class="card__link extend-link link">Заголовок</a>
+									</h2>
+
+									<p class="card__lead">Краткое описание поста/статьи может быть в&nbsp;несколько строк,
+										но&nbsp;не&nbsp;больше 3&nbsp;строк. Также, пост может не&nbsp;иметь подзаголовка, только
+										условно&nbsp;- “Название поста”</p>
+								</div>
+								<div class="card__image-wrapper">
+									<img class="card__image" src=" ./img/article-poster-1.png" alt="">
+								</div>
+							</div>
+
+							<div class="card__tags">
+								<ul class="card__tags-list">
+									<li class="card__tags-item">
+										<a href="#" class="card__tags-link link">Имя тэга 1</a>
+									</li>
+									<li class="card__tags-item">
+										<a href="#" class="card__tags-link link">Имя тэга 2</a>
+									</li>
+									<li class="card__tags-item">
+										<a href="#" class="card__tags-link link">Имя тэга 3</a>
+									</li>
+									<li class="card__tags-item">
+										<a href="#" class="card__tags-link link">Имя тэга 4</a>
+									</li>
+									<li class="card__tags-item">
+										<a href="#" class="card__tags-link link">Имя тэга 5</a>
+									</li>
+								</ul>
+							</div>
+
+							<footer class="card__footer">
+								<div class="card__actions actions">
+									<div class="actions__list">
+										<button class="actions__item link" data-bs-toggle="tooltip" title="Комментарии"
+											aria-label="Комментарии">
+											<svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"
+												fill="currentColor" aria-hidden="true">
+												<path
+													d="M6.50001 17.3334C6.27899 17.3334 6.06703 17.2456 5.91075 17.0893C5.75447 16.933 5.66667 16.721 5.66667 16.5V14H2.33334C1.89131 14 1.46739 13.8244 1.15483 13.5119C0.842266 13.1993 0.666672 12.7754 0.666672 12.3334V2.33335C0.666672 1.40835 1.41667 0.666687 2.33334 0.666687H15.6667C16.1087 0.666687 16.5326 0.842282 16.8452 1.15484C17.1577 1.4674 17.3333 1.89133 17.3333 2.33335V12.3334C17.3333 12.7754 17.1577 13.1993 16.8452 13.5119C16.5326 13.8244 16.1087 14 15.6667 14H10.5833L7.50001 17.0917C7.33334 17.25 7.12501 17.3334 6.91667 17.3334H6.50001ZM7.33334 12.3334V14.9L9.90001 12.3334H15.6667V2.33335H2.33334V12.3334H7.33334ZM4.00001 4.83335H14V6.50002H4.00001V4.83335ZM4.00001 8.16669H11.5V9.83335H4.00001V8.16669Z" />
+											</svg>
+
+											<span class="actions__label">200</span>
+										</button>
+
+										<button class="actions__item link" data-bs-toggle="tooltip" title="Добавить в закладки"
+											aria-label="Добавить в закладки">
+											<svg width="12" height="16" viewBox="0 0 12 16" xmlns="http://www.w3.org/2000/svg"
+												fill="currentColor" aria-hidden="true">
+												<path
+													d="M10.1667 13L6.00002 11.1833L1.83335 13V2.16667H10.1667V13ZM10.1667 0.5H1.83335C1.39133 0.5 0.967403 0.675595 0.654842 0.988155C0.342282 1.30072 0.166687 1.72464 0.166687 2.16667V15.5L6.00002 13L11.8334 15.5V2.16667C11.8334 1.24167 11.0834 0.5 10.1667 0.5Z" />
+											</svg>
+										</button>
+
+										<button class="actions__item link" data-bs-toggle="tooltip" title="Поделиться"
+											aria-label="Поделиться">
+											<svg width="16" height="18" viewBox="0 0 16 18" xmlns="http://www.w3.org/2000/svg"
+												fill="currentColor" aria-hidden="true">
+												<path
+													d="M13 12.4C12.3667 12.4 11.8 12.65 11.3667 13.0417L5.425 9.58335C5.46667 9.39169 5.5 9.20002 5.5 9.00002C5.5 8.80002 5.46667 8.60835 5.425 8.41669L11.3 4.99169C11.75 5.40835 12.3417 5.66669 13 5.66669C14.3833 5.66669 15.5 4.55002 15.5 3.16669C15.5 1.78335 14.3833 0.666687 13 0.666687C11.6167 0.666687 10.5 1.78335 10.5 3.16669C10.5 3.36669 10.5333 3.55835 10.575 3.75002L4.7 7.17502C4.25 6.75835 3.65833 6.50002 3 6.50002C1.61667 6.50002 0.5 7.61669 0.5 9.00002C0.5 10.3834 1.61667 11.5 3 11.5C3.65833 11.5 4.25 11.2417 4.7 10.825L10.6333 14.2834C10.5917 14.4584 10.5667 14.6417 10.5667 14.8334C10.5667 16.175 11.6583 17.2584 13 17.2584C14.3417 17.2584 15.4333 16.175 15.4333 14.8334C15.4333 13.4917 14.3417 12.4 13 12.4ZM13 2.33335C13.4583 2.33335 13.8333 2.70835 13.8333 3.16669C13.8333 3.62502 13.4583 4.00002 13 4.00002C12.5417 4.00002 12.1667 3.62502 12.1667 3.16669C12.1667 2.70835 12.5417 2.33335 13 2.33335ZM3 9.83335C2.54167 9.83335 2.16667 9.45835 2.16667 9.00002C2.16667 8.54169 2.54167 8.16669 3 8.16669C3.45833 8.16669 3.83333 8.54169 3.83333 9.00002C3.83333 9.45835 3.45833 9.83335 3 9.83335ZM13 15.6667C12.5417 15.6667 12.1667 15.2917 12.1667 14.8334C12.1667 14.375 12.5417 14 13 14C13.4583 14 13.8333 14.375 13.8333 14.8334C13.8333 15.2917 13.4583 15.6667 13 15.6667Z" />
+											</svg>
+										</button>
+									</div>
+
+								</div>
+								<div class="card__rating rating">
+									<button class="rating__control rating__control--like" data-bs-toggle="tooltip" title="Нравится"
+										aria-label="Нравится">
+										<svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M11.8333 6.83335H6.83334V11.8334H5.16667V6.83335H0.166672V5.16669H5.16667V0.166687H6.83334V5.16669H11.8333V6.83335Z"
+												fill="#37ad00" fill-opacity="0.7" aria-hidden="true" />
+										</svg>
+									</button>
+
+									<span class=" rating__count">20</span>
+
+									<button class="rating__control rating__control--dislike" data-bs-toggle="tooltip" title="Не нравится"
+										aria-label="Не нравится">
+										<svg width="12" height="2" viewBox="0 0 12 2" xmlns="http://www.w3.org/2000/svg">
+											<path d="M11.8333 1.83335H0.166672V0.166687H11.8333V1.83335Z" fill="#ed2f4a" fill-opacity="0.7"
+												aria-hidden="true" />
+										</svg>
+									</button>
+								</div>
+							</footer>
+						</article>
+
+						<article class="page-content__card card card--accent">
+							<header class="card__header">
+								<div class="card__category-wrapper">
+									<a class="card__category pic-link link" href="#">
+										<img class="pic-link__icon" src="./img/nav-icon-soft.svg" width="20" height="20" alt="">
+										<span class="card__category-label pic-link__label">Софт</span>
+									</a>
+									<button class="card__category-subscribe" type="button" data-bs-toggle="tooltip" title="Подписаться">
+										<svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg"
+											fill="currentColor" aria-hidden="true">
+											<path
+												d="M11.8333 6.83335H6.83334V11.8334H5.16667V6.83335H0.166672V5.16669H5.16667V0.166687H6.83334V5.16669H11.8333V6.83335Z" />
+										</svg>
+									</button>
+								</div>
+
+								<div class="card__author-wrapper">
+									<a href="#" class="card__author pic-link link">
+										<img class="pic-link__icon" src="./img/user-vasya-pupkin.png" width="20" height="20" alt="">
+										<span class="pic-link__label">Vasya Pupkin</span>
+									</a>
+								</div>
+							</header>
+
+							<div class="card__hover">
+								<div class="card__overlay-content">
+									<div class="card__tags">
+										<ul class="card__tags-list">
+											<li class="card__tags-item">
+												<a href="#" class="card__tags-link">Ивент</a>
+											</li>
+											<li class="card__tags-item">
+												<a href="#" class="card__tags-link">CG Практика</a>
+											</li>
+											<li class="card__tags-item">
+												<a href="#" class="card__tags-link">Blender</a>
+											</li>
+											<li class="card__tags-item">
+												<a href="#" class="card__tags-link">Окружение</a>
+											</li>
+										</ul>
+									</div>
+									<h2 class="card__title title title--h2">
+										<a href="#" class="card__link extend-link link">В чём сила, Blender?</a>
+									</h2>
+									<p class="card__subtitle">...или как упростить жизнь художника с&nbsp;помощью&nbsp;3D</p>
+									<div class="card__date-wrapper">
+										<time class="card__date decor-dot" datetime="2021-04-27">27 Апреля 2021</time>
+										<span class="card__read-time">10 мин чтения</span>
+									</div>
+								</div>
+
+								<p class="card__lead">В&nbsp;воркшопе мы&nbsp;будем готовить 3D-основу будущей кинолокации.
+									В&nbsp;распоряжение ты&nbsp;получишь заготовки, с&nbsp;помощью которых сможешь подготовить свой
+									концепт.
+								</p>
+
+								<div class="card__image-wrapper">
+									<img class="card__image" src="./img/article-poster-204.png" alt="">
+								</div>
+							</div>
+
+
+
+							<footer class="card__footer">
+								<div class="card__actions actions">
+									<div class="actions__list">
+										<button class="actions__item link" data-bs-toggle="tooltip" title="Комментарии"
+											aria-label="Комментарии">
+											<svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"
+												fill="currentColor" aria-hidden="true">
+												<path
+													d="M6.50001 17.3334C6.27899 17.3334 6.06703 17.2456 5.91075 17.0893C5.75447 16.933 5.66667 16.721 5.66667 16.5V14H2.33334C1.89131 14 1.46739 13.8244 1.15483 13.5119C0.842266 13.1993 0.666672 12.7754 0.666672 12.3334V2.33335C0.666672 1.40835 1.41667 0.666687 2.33334 0.666687H15.6667C16.1087 0.666687 16.5326 0.842282 16.8452 1.15484C17.1577 1.4674 17.3333 1.89133 17.3333 2.33335V12.3334C17.3333 12.7754 17.1577 13.1993 16.8452 13.5119C16.5326 13.8244 16.1087 14 15.6667 14H10.5833L7.50001 17.0917C7.33334 17.25 7.12501 17.3334 6.91667 17.3334H6.50001ZM7.33334 12.3334V14.9L9.90001 12.3334H15.6667V2.33335H2.33334V12.3334H7.33334ZM4.00001 4.83335H14V6.50002H4.00001V4.83335ZM4.00001 8.16669H11.5V9.83335H4.00001V8.16669Z" />
+											</svg>
+
+											<span class="actions__label">200</span>
+										</button>
+
+										<button class="actions__item link" data-bs-toggle="tooltip" title="Добавить в закладки"
+											aria-label="Добавить в закладки">
+											<svg width="12" height="16" viewBox="0 0 12 16" xmlns="http://www.w3.org/2000/svg"
+												fill="currentColor" aria-hidden="true">
+												<path
+													d="M10.1667 13L6.00002 11.1833L1.83335 13V2.16667H10.1667V13ZM10.1667 0.5H1.83335C1.39133 0.5 0.967403 0.675595 0.654842 0.988155C0.342282 1.30072 0.166687 1.72464 0.166687 2.16667V15.5L6.00002 13L11.8334 15.5V2.16667C11.8334 1.24167 11.0834 0.5 10.1667 0.5Z" />
+											</svg>
+										</button>
+
+										<button class="actions__item link" data-bs-toggle="tooltip" title="Поделиться"
+											aria-label="Поделиться">
+											<svg width="16" height="18" viewBox="0 0 16 18" xmlns="http://www.w3.org/2000/svg"
+												fill="currentColor" aria-hidden="true">
+												<path
+													d="M13 12.4C12.3667 12.4 11.8 12.65 11.3667 13.0417L5.425 9.58335C5.46667 9.39169 5.5 9.20002 5.5 9.00002C5.5 8.80002 5.46667 8.60835 5.425 8.41669L11.3 4.99169C11.75 5.40835 12.3417 5.66669 13 5.66669C14.3833 5.66669 15.5 4.55002 15.5 3.16669C15.5 1.78335 14.3833 0.666687 13 0.666687C11.6167 0.666687 10.5 1.78335 10.5 3.16669C10.5 3.36669 10.5333 3.55835 10.575 3.75002L4.7 7.17502C4.25 6.75835 3.65833 6.50002 3 6.50002C1.61667 6.50002 0.5 7.61669 0.5 9.00002C0.5 10.3834 1.61667 11.5 3 11.5C3.65833 11.5 4.25 11.2417 4.7 10.825L10.6333 14.2834C10.5917 14.4584 10.5667 14.6417 10.5667 14.8334C10.5667 16.175 11.6583 17.2584 13 17.2584C14.3417 17.2584 15.4333 16.175 15.4333 14.8334C15.4333 13.4917 14.3417 12.4 13 12.4ZM13 2.33335C13.4583 2.33335 13.8333 2.70835 13.8333 3.16669C13.8333 3.62502 13.4583 4.00002 13 4.00002C12.5417 4.00002 12.1667 3.62502 12.1667 3.16669C12.1667 2.70835 12.5417 2.33335 13 2.33335ZM3 9.83335C2.54167 9.83335 2.16667 9.45835 2.16667 9.00002C2.16667 8.54169 2.54167 8.16669 3 8.16669C3.45833 8.16669 3.83333 8.54169 3.83333 9.00002C3.83333 9.45835 3.45833 9.83335 3 9.83335ZM13 15.6667C12.5417 15.6667 12.1667 15.2917 12.1667 14.8334C12.1667 14.375 12.5417 14 13 14C13.4583 14 13.8333 14.375 13.8333 14.8334C13.8333 15.2917 13.4583 15.6667 13 15.6667Z" />
+											</svg>
+										</button>
+									</div>
+
+								</div>
+								<div class="card__rating rating">
+									<button class="rating__control rating__control--like" data-bs-toggle="tooltip" title="Нравится"
+										aria-label="Нравится">
+										<svg width="12" height="12" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M11.8333 6.83335H6.83334V11.8334H5.16667V6.83335H0.166672V5.16669H5.16667V0.166687H6.83334V5.16669H11.8333V6.83335Z"
+												fill="#37ad00" fill-opacity="0.7" aria-hidden="true" />
+										</svg>
+									</button>
+
+									<span class=" rating__count">20</span>
+
+									<button class="rating__control rating__control--dislike" data-bs-toggle="tooltip" title="Не нравится"
+										aria-label="Не нравится">
+										<svg width="12" height="2" viewBox="0 0 12 2" xmlns="http://www.w3.org/2000/svg">
+											<path d="M11.8333 1.83335H0.166672V0.166687H11.8333V1.83335Z" fill="#ed2f4a" fill-opacity="0.7"
+												aria-hidden="true" />
+										</svg>
+									</button>
+								</div>
+							</footer>
+						</article>
+					</div>
+					<div class="page-content__loader">
+						<button class="loader" type="button">
+							<img class="loader__icon" src="./img/icon-loader.svg" width="18" height="18" alt="">
+							<span>Загрузка ещё статей</span>
+						</button>
+					</div>
+				</main>
+				<aside class="page-content__aside d-none d-lg-block col-lg-3">
+					<div class="aside-item">
+						<h2 class="aside-item__title title title--h2">Статья дня</h2>
+						<div class="aside-item__content">
+							<div class="aside-card">
+								<header class="aside-card__header">
+									<div class="aside-card__category-wrapper">
+										<a class="aside-card__category-link pic-link link" href="#">
+											<img class="pic-link__icon" src="./img/nav-icon-gamedev.svg" width="20" height="20" alt="">
+											<span>Геймдев</span>
+										</a>
+									</div>
+									<div class="aside-card__rating-wrapper">
+										<span class="aside-card__rating">+1042</span>
+									</div>
+								</header>
+								<div class="aside-card__content">
+									<h4 class="aside-card__title title title--h4">
+										<a class="aside-card__link extend-link link" href="#">Epic разослала игрокам из Fortnite опросник о
+											персонажах из известных франшиз — среди них есть Леди</a>
+									</h4>
+									<p class="aside-card__lead">Судя по предыдущим формам, это нужно для будущих коллабораций.</p>
+									<img class="aside-card__image" src="./img/article-poster-3.png" alt="">
+								</div>
+								<footer class="aside-card__footer">
+									<div class="aside-card__author-wrapper">
+										<a href="#" class="aside-card__author pic-link link">
+											<img class="pic-link__icon" src="./img/user-author-nickname.png" width="20" height="20" alt="">
+											<span class="pic-link__label">Author Nickname</span>
+										</a>
+									</div>
+									<div class="aside-card__date-wrapper">
+										<time class="aside-card__date" datetime="2021-12-20T10:23">Сегодня 10:23</time>
+									</div>
+								</footer>
+
+							</div>
+
+						</div>
+					</div>
+				</aside>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="./bundle.js"></script>
+</body>
+
+</html>
