@@ -1,4 +1,3 @@
-
 @import "normalize.css/normalize";
 
 @import "variables.scss";
@@ -12,8 +11,6 @@ $tooltip-bg: #eeeeee;
 @import "bootstrap/scss/tooltip";
 @import "bootstrap/scss/dropdown";
 
-
-@import "variables.scss";
 @import "global.scss";
 @import "./blocks/page-header.scss";
 @import "./blocks/page-content.scss";
@@ -25,7 +22,7 @@ $tooltip-bg: #eeeeee;
 @import "./blocks/aside-card.scss";
 
 .page {
-  height: 100%;
+	height: 100%;
 }
 
 .title {
@@ -45,18 +42,18 @@ $tooltip-bg: #eeeeee;
 }
 
 .page__body {
-  min-width: 320px;
-  min-height: 100%;
-  margin: 0;
-  padding: 0;
+	min-width: 320px;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
 
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 400;
-  color: $main-color;
-	
-  background-color: #f8f7fB;
+	font-family: "Roboto", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 400;
+	color: $main-color;
+
+	background-color: #f8f7fB;
 }
 
 .nav-toggle {
@@ -72,15 +69,15 @@ $tooltip-bg: #eeeeee;
 	@media (min-width: $desktop-width) {
 		height: 30px;
 	}
-}
 
-.logo:hover,
-.logo:focus {
-  opacity: 0.7;
-}
+	&:hover,
+	&:focus {
+		opacity: 0.7;
+	}
 
-.logo:active {
-  opacity: 0.4;
+	&:active {
+		opacity: 0.4;
+	}
 }
 
 .logo__img {
@@ -99,7 +96,7 @@ $tooltip-bg: #eeeeee;
 
 .extend-link::before {
 	content: "";
-	position: absolute;	
+	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -113,10 +110,10 @@ $tooltip-bg: #eeeeee;
 
 .actions__item {
 	margin-right: 20px;
-}
 
-.actions__item:last-child  {
-	margin-right: 0;
+	&:last-child {
+		margin-right: 0;
+	}
 }
 
 .actions__label {
@@ -144,17 +141,17 @@ $tooltip-bg: #eeeeee;
 
 .decor-dot {
 	display: inline-flex;
-}
 
-.decor-dot::after {
-	content: "";
-	width: 2px;
-	height: 2px;
-	align-self: center;
-	border-radius: 50%;
-	margin-left: 5px;
-	margin-right: 5px;
-	background-color: currentColor;
+	&::after {
+		content: "";
+		width: 2px;
+		height: 2px;
+		align-self: center;
+		border-radius: 50%;
+		margin-left: 5px;
+		margin-right: 5px;
+		background-color: currentColor;
+	}
 }
 
 .loader {
@@ -165,11 +162,12 @@ $tooltip-bg: #eeeeee;
 	margin-right: 10px;
 }
 
-.link:hover {
-	color: $accent-color;
-}
+.link {
+	&:hover {
+		color: $accent-color;
+	}
 
-.link:active {
-	opacity: 0.6;
+	&:active {
+		opacity: 0.6;
+	}
 }
-

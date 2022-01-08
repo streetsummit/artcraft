@@ -3,10 +3,8 @@ import { Tooltip, Dropdown } from 'bootstrap';
 
 
 // Tooltips initialization
-const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-const tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-	return new Tooltip(tooltipTriggerEl)
-})
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
+const tooltipList = tooltipTriggerList.forEach((tooltipTriggerEl) => new Tooltip(tooltipTriggerEl));
 
 
 
@@ -15,7 +13,7 @@ const navMain = document.querySelector('.site-nav');
 const navToggles = document.querySelectorAll('.nav-toggle');
 
 navToggles.forEach((navToggle) => {
-	navToggle.addEventListener('click', function () {
+	navToggle.addEventListener('click', () => {
 		navMain.classList.toggle('site-nav--closed');
 	});
 })

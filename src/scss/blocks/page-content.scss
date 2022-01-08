@@ -1,8 +1,8 @@
-.page-content__nav {	
+.page-content__nav {
 	padding-top: 40px;
 }
 
-.page-content__main {	
+.page-content__main {
 	padding-top: 30px;
 }
 
@@ -16,18 +16,18 @@
 	@media (min-width: $desktop-width) {
 		margin-bottom: 18px;
 	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
 }
 
-.page-content__card:last-child {
-	margin-bottom: 0;
-}
-
-.page-content__loader {	
+.page-content__loader {
 	width: 100%;
 	margin-top: 20px;
 	text-align: center;
 }
 
-.page-content__aside {	
+.page-content__aside {
 	padding-top: 90px;
 }

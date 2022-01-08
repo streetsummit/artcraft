@@ -6,7 +6,7 @@
 	padding: 10px 15px;
 	background-color: #ffffff;
 	border: none;
-	
+
 	@media (min-width: $desktop-width) {
 		display: none;
 	}
@@ -33,36 +33,36 @@
 	@media (min-width: $desktop-width) {
 		margin-right: 10px;
 	}
-}
 
-.filters__item:last-child {
-	margin-right: 0;
+	&:last-child {
+		margin-right: 0;
+	}
 }
 
 .filters__filter {
-	display: inline-block;	
+	display: inline-block;
 	padding: 10px 15px;
 	font-weight: 500;
 	line-height: 20px;
-	background-color: transparent;	
+	background-color: transparent;
 	border-radius: 6px;
 	border: none;
-}
 
-.filters__filter:hover,
-.filters__filter:focus {
-	background-color: transparent;
-	color: $accent-color;
-}
+	&:hover,
+	&:focus {
+		background-color: transparent;
+		color: $accent-color;
+	}
 
-.filters__filter:active {
-	background-color: transparent;
-	color: $accent-color;
-	opacity: 0.6;
-}
+	&:active {
+		background-color: transparent;
+		color: $accent-color;
+		opacity: 0.6;
+	}
 
-.filters__filter--current {
-	background-color: rgba(102, 31, 255, 0.05);
-	color: $accent-color;
-	pointer-events: none;
+	&--current {
+		background-color: rgba(102, 31, 255, 0.05);
+		color: $accent-color;
+		pointer-events: none;
+	}
 }
